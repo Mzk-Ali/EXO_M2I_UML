@@ -40,11 +40,11 @@
         <mxCell id="ILdGlqZtgMftyd_i-rPF-11" value="Consulter les réservations existantes" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="330" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ILdGlqZtgMftyd_i-rPF-15" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237)); font-size: 14px;&quot;&gt;&lt;b&gt;Logiciel de réservation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ILdGlqZtgMftyd_i-rPF-15" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237)); font-size: 14px;&quot;&gt;&lt;b&gt;Logiciel de réservation&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="340" y="90" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9FznoxcNDnIQ5v2ejwhF-1" value="Système soumis à l&#39;authentification" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="560" y="110" width="110" height="105" as="geometry" />
+        <mxCell id="9FznoxcNDnIQ5v2ejwhF-1" value="Système soumis à l&#39;authentification" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="560" y="110" width="110" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
