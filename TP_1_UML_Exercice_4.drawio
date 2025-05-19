@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1n6aaUzNF8a3s-r--wuR-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="80" width="640" height="480" as="geometry" />
+          <mxGeometry x="160" y="80" width="640" height="660" as="geometry" />
         </mxCell>
         <mxCell id="1n6aaUzNF8a3s-r--wuR-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px; color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237));&quot;&gt;Logiciel de réservation scolaire&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="170" y="90" width="220" height="30" as="geometry" />
@@ -95,6 +95,21 @@
         </mxCell>
         <mxCell id="09qUjX9F1Vz_cEnqoaQH-1" value="Récapitulatif horaire est calculé à partir du planning des salles" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="630" y="420" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="09qUjX9F1Vz_cEnqoaQH-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="09qUjX9F1Vz_cEnqoaQH-2" target="09qUjX9F1Vz_cEnqoaQH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09qUjX9F1Vz_cEnqoaQH-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;" edge="1" parent="1" source="09qUjX9F1Vz_cEnqoaQH-2" target="09qUjX9F1Vz_cEnqoaQH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09qUjX9F1Vz_cEnqoaQH-2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="585" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="09qUjX9F1Vz_cEnqoaQH-3" value="Gérer les utilisateurs" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="09qUjX9F1Vz_cEnqoaQH-4" value="Gérer les salles / matériels" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="645" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
