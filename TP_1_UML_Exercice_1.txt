@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------------------------------ */
+/*                   Exercice UML : Cas d'utilisation					                */
+/* ------------------------------------------------------------------------------------ */
+/*  Auteur 	: MARZAK Ali 																*/
+/*	Date 	: 19/05/2025 																*/
+/* ------------------------------------------------------------------------------------ */
+
+/* Exercice 1 : *************************************************************************/
+
+Acteurs primaires 	: Client, Caissier
+Acteurs secondaires : Fournisseur
+
+
+Le client peut commander un produit et peut demander que le produit soit livré.
+Le client peut régler une facture (en espèce ou par chèque) et peut demander une facture, qui celle-ci mène à une livraison du produit.
+Le client peut faire un retrait par chèque ou par CB.
+Une facture régler en espèce oblige à faire un retrait.
+Une facture régler par chèque oblige à faire un virement.
+Le caissier peut faire un virement.
+La livraison du produit et la mise en place de la facture fait appel au fournisseur pour sa création.
