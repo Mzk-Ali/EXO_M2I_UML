@@ -144,7 +144,7 @@
           <mxGeometry y="164" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KPPIBU8r4VzU2irEwszz-52" value="Salle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="750" width="160" height="112" as="geometry" />
+          <mxGeometry x="339" y="720" width="160" height="138" as="geometry" />
         </mxCell>
         <mxCell id="KPPIBU8r4VzU2irEwszz-53" value="- batiment : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KPPIBU8r4VzU2irEwszz-52">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
@@ -157,6 +157,9 @@
         </mxCell>
         <mxCell id="KPPIBU8r4VzU2irEwszz-55" value="+ ajoutSalle () : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KPPIBU8r4VzU2irEwszz-52">
           <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="KPPIBU8r4VzU2irEwszz-80" value="+ supprimerSalle () : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="KPPIBU8r4VzU2irEwszz-52">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
         </mxCell>
         <mxCell id="KPPIBU8r4VzU2irEwszz-71" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="KPPIBU8r4VzU2irEwszz-70" target="KPPIBU8r4VzU2irEwszz-36">
           <mxGeometry relative="1" as="geometry" />
