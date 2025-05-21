@@ -1,9 +1,70 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.6">
   <diagram name="Page-1" id="lgjtmHra_G9_UdKhoM6j">
-    <mxGraphModel>
+    <mxGraphModel dx="898" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="l16jiaLs2Fedwq6WprEs-1" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237)); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Diagramme UseCase&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="319" y="40" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="520" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-3" value="&lt;font style=&quot;color: light-dark(rgb(255, 0, 0), rgb(237, 237, 237)); font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Diagramme de classes&lt;/b&gt;&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="319" y="600" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="l16jiaLs2Fedwq6WprEs-4" target="l16jiaLs2Fedwq6WprEs-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-4" value="Visiteur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="l16jiaLs2Fedwq6WprEs-5" target="l16jiaLs2Fedwq6WprEs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-5" value="Adhérent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="1" source="l16jiaLs2Fedwq6WprEs-6" target="l16jiaLs2Fedwq6WprEs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="l16jiaLs2Fedwq6WprEs-6" target="l16jiaLs2Fedwq6WprEs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-6" value="Responsable du club" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="450" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;" edge="1" parent="1" source="l16jiaLs2Fedwq6WprEs-9" target="l16jiaLs2Fedwq6WprEs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-9" value="Système Email&lt;div&gt;&amp;lt;&amp;lt;secondary&amp;gt;&amp;gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="l16jiaLs2Fedwq6WprEs-10" target="l16jiaLs2Fedwq6WprEs-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-14" value="&lt;b&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l16jiaLs2Fedwq6WprEs-13">
+          <mxGeometry x="-0.2304" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-10" value="S&#39;inscrire" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-17" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="1" source="l16jiaLs2Fedwq6WprEs-12" target="l16jiaLs2Fedwq6WprEs-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-18" value="&lt;b&gt;&amp;lt;&amp;lt;includes&amp;gt;&amp;gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="l16jiaLs2Fedwq6WprEs-17">
+          <mxGeometry x="-0.224" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-12" value="Valider le compte" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l16jiaLs2Fedwq6WprEs-16" value="Envoi Email" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
